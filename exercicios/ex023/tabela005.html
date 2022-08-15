@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome{
+            background-color: chartreuse;
+        }
+
+        col.cgrupo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Edu</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Goleiro</td>
+        </tr>
+        <tr>
+            <td>Janjao</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Lateral</td>
+        </tr>
+        <tr>
+            <td>Arthur</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Meia</td>
+        </tr>
+        <tr>
+            <td>Alessandro Guines</td>
+            <td>M</td>
+            <td>15</td>
+            <td>zagueiro</td>
+        </tr>
+        <tr>
+            <td>Jose Vitor</td>
+            <td>M</td>
+            <td>15</td>
+            <td>Ponta</td>
+        </tr>
+        <tr>
+            <td>Jose Diogo</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Volante</td>
+        </tr>
+    </table>
+</body>
+</html>
