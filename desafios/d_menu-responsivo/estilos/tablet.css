@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+main{
+    text-align: justify;
+    padding: 5px;
+    width: 767px;
+    border-radius: 8px;
+    margin: auto;
+}
